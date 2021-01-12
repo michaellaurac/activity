@@ -1,0 +1,22 @@
+/* Your tabs CSS code here */
+.tabs {
+    display: flex;
+}
+
+.tab {
+    color: #adcadb;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-top: 3px solid transparent;
+}
+
+.tab:hover {
+    background: linear-gradient(0.10turn, #016e8f, #017598);
+    color: #e0e6e9;
+}
+
+.tab.tab-active {
+    background: linear-gradient(0.10turn, #016e8f, #017598);
+    border-top: 3px solid #c4d4dd;
+}

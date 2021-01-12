@@ -1,0 +1,34 @@
+.notifications {
+}
+
+.notification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    margin-bottom: 5px;
+    
+    background: linear-gradient(0.10turn, #016e8f, #0085ad);
+}
+
+.notification-content {
+    line-height: 1.2;
+    padding: 0 24px;
+    flex-grow: 1;
+    
+}
+
+.notification-content h1 {
+    color: #adcadb;
+    font-weight: bold;
+    font-size: 13px;
+    text-shadow: 0 0 2px #00000080;
+}
+
+.notification-content p {
+    color: #c4d4dd;
+    font-weight: normal;
+    font-size: 13px;
+    text-shadow: 0 0 2px #00000080;
+}
+
